@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #000;
+}
+
+.container-max-width{
+    max-width: 1080px;;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a, p, span{
+    font-size: 1.7rem;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+/* content */
+.content{
+    background: #fff;
+    padding: 2rem;
+}
+
+.content h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 1rem 0;
+}
+
+.content h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 1rem 0;
+}
+
+.content .date{
+    padding: 1rem 0;
+}
+
+.content .date span{
+    margin-left: .3rem;
+}
+
+.content .date .fa-user,
+.content .date .fa-folder-open{
+    margin-left: 1.5rem;
+}
+
+.content .image-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.content .image-center .image{
+    max-width: 100%;
+}
+.content .image-center .image img{
+   width: 100%;
+}
+
+.content .text-b p{
+    line-height: 1.7;
+    font-weight: bold;
+}
+
+.content .texts p{
+    line-height: 1.7;
+    padding: 1.5rem 0;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.7rem;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
