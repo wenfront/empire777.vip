@@ -54,6 +54,7 @@ i{
     color: #fff;
     background: #000;
 }
+
 .navbar .links.active{
     color: #fff;
     background: #000;
@@ -93,32 +94,40 @@ i{
 }
 
 /* content-hero-left */
-.content-hero-left{
-    display: flex;
+.content-hero-lefts{
     padding: 2rem;
-    gap: 2rem;
-    border-bottom: .1rem solid #cccccc;
 }
 
-.content-hero-left .desc h2{
+.content-hero-lefts h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: .5rem 0;
+}
+.content-hero-lefts h3{
     font-size: 2.2rem;
+    font-weight: bold;
+    padding: .5rem 0;
 }
-
-.content-hero-left .desc .date{
-    padding: 1rem 0;
+.content-hero-lefts  h4{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: .5rem 0;
+}
+.content-hero-lefts .texts p{
+    line-height: 1.7;
+    padding: .5rem 0;
+}
+.content-hero-lefts .images-center{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-
-.content-hero-left .desc .date span{
-    margin-left: .3rem;
+.content-hero-lefts .images-center .image{
+   max-width: 100%;
+   padding: 2rem;
 }
-
-.content-hero-left .desc .date .fa-user{
-    margin-left: 1.5rem;
-}
-
-.content-hero-left .desc .text{
-    padding-top: .5rem;
+.content-hero-lefts .images-center .image img{
+   width: 100%;
 }
 
 /* content-hero-rigth */
@@ -154,7 +163,6 @@ i{
     align-items: center;
     padding: 1rem;
     background-color: #d1d1d1;
-    margin-bottom: 1rem;
 }
    
 .content-hero-rigth .group .input {
@@ -180,13 +188,16 @@ i{
 }
 
 .content-hero-rigth .image-rigth{
+    padding: 1rem 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-hero-rigth .image-rigth .image{
     padding: .5rem 0;
-    width: 100%;
+    max-width: 100%;
 }
 
 .content-hero-rigth .image-rigth .image img{
